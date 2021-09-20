@@ -1,0 +1,40 @@
+html{
+  font-size: 75%;
+  box-sizing: border-box;
+}
+*,*:before, *:after{
+  box-sizing: inherit;
+}
+body{
+  margin: 10fr;
+  padding: 0;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-family: 'PT Sans', sans-serif;
+  background: #FFCC33;
+  background: -webkit-linear-gradient(to right);
+  background: linear-gradient(to right, #6699CC, #FFFFFF);
+}
+h1,h2,h3 {
+  margin: 0 0 2rem 0;
+  line-height: 2;
+}
+h1,h2{
+  font-family: 'Roboto Slab',serif;
+  font-weight: 700;
+}
+h3{
+  font-family: 'PT Sans', sans-serif;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+img{
+  max-width: 100%;
+}
